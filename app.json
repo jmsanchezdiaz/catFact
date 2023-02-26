@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ApiAppWithNative",
-    "slug": "ApiAppWithNative",
+    "name": "CatFact",
+    "slug": "CatFact",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jsanchezdiaz.CatFact"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jsanchezdiaz.CatFact"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "96830fc3-065a-4ed6-afff-39068ad3118c"
+      }
     }
   }
 }
